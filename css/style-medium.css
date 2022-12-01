@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* PAGE */
+
+html {
+    min-width: 768px;
+    max-width: 992px;
+}
+
+main {
+    padding: 5px;
+}
+
+/* PAGE */
+
+/* SEARCH */
+
+.search {
+    padding: 0px 15px 0px 15px;
+}
+
+/* FILTERS */
+
+.search_filters {
+    margin: 20px 0px 20px 0px;
+}
+
+.search_filters_filter {
+    margin: 5px 15px;
+}
+
+/* FILTERS */
+
+/* HOSTING */
+
+.hosting {
+    flex-direction: column-reverse;
+}
+
+.hosting_card {
+    margin: 10px;
+}
+
+/* HOSTING POPULAR */
+
+.hosting_popular {
+    margin: 20px 0px 20px 0px;
+}
+
+.hosting_popular_cards {
+    flex-direction: row;
+}
+
+.hosting_popular_card {
+    width: 30%;
+}
+
+/* HOSTING POPULAR */
+
+/* HOSTING MAIN */
+
+.hosting_main {
+    margin: 20px 0px 20px 0px;
+}
+
+.hosting_main_card {
+    width: 47%;
+}
+
+.hosting_main_card_fig_img {
+    height: 140px;
+}
+
+/* HOSTING MAIN */
+
+/* HOSTING */
+
+/* ACTIVITY */
+
+.activity {
+    margin: 0;
+}
+
+.activity_header {
+    margin: 30px 0px 10px 30px;
+}
+
+.activity_cards {
+    flex-flow: row wrap;
+    height: auto;
+}
+
+.activity_card {
+    margin: 10px;
+    width: 47%;
+    height: auto;
+}
+
+.activity_card_fig_img {
+    height: 140px;
+}
+
+.activity_card_fig_caption {
+    margin-left: 20px;
+}
+
+/* ACTIVITY */
+
+}

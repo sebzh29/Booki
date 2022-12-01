@@ -1,0 +1,209 @@
+@media screen and (max-width: 768px) {
+
+/* PAGE */
+    
+html {
+    min-width: 450px;
+    max-width: 768px;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+}
+    
+/* PAGE */
+    
+/* HEADER */
+    
+.header {
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.header_img {
+    margin: auto;
+    width: 150px;
+    padding-top: 20px;
+}
+    
+.header_nav {
+    justify-content: center;
+    padding: 0;
+}
+    
+.header_nav_link {
+    width: 100%;
+    padding: 25px;
+    border-top: transparent;
+    border-bottom: 3px solid #F2F2F2;
+}
+    
+.header_nav_link:hover {
+    border-top: transparent;
+    border-bottom: 3px solid #0065FC;
+}
+    
+/* HEADER */
+    
+/* SEARCH */
+
+.search {
+    padding: 0px 15px 0px 15px;
+    margin: auto;
+}
+
+.search_header {
+    margin-top: 30px;
+}
+    
+/* SEARCH */
+    
+/* FORM */
+
+.search_form {
+    justify-content: center;
+    width: 100%;
+}
+
+.search_form_icon {
+    width: 50px;
+}
+
+.search_form_searchinput {
+    width: 100%;
+}
+    
+.search_form_submitinput {
+    border-radius: 15px;
+    width: 60px;
+}
+
+.search_form_submitinput_text {
+    display: none;
+}
+
+.search_text_icon {
+    font-size: 17px;
+}
+    
+/* FORM */
+    
+/* FILTERS */
+    
+.search_filters {
+    margin: 5px 0px 10px 0px;
+}
+.search_filters_title {
+    width: 100%;
+}
+
+.search_filters_filter {
+    margin: 5px 15px;
+}
+   
+/* FILTERS */
+    
+/* HOSTING */
+    
+.hosting {
+    flex-direction: column-reverse;
+}
+
+.hosting_background {
+    border-radius: 0;
+}
+
+.hosting_card {
+    margin: 10px;
+}
+
+.hosting_card:hover {
+    transform: scale(1.02);
+}
+
+/* HOSTING POPULAR */
+    
+.hosting_popular {
+    margin: 10px 0px 10px 0px;
+}
+   
+.hosting_popular_card {
+    width: 95%;
+}
+
+.hosting_popular_card_fig_img {
+    height: 130px;
+}
+    
+/* HOSTING POPULAR */
+
+/* HOSTING MAIN */
+    
+.hosting_main {
+    margin: 10px 0px 20px 0px;
+    background-color: white;
+    border: none;
+}
+    
+.hosting_main_card {
+    width: 95%;
+}
+    
+.hosting_main_card_fig_img {
+    height: 175px;
+}
+    
+/* HOSTING MAIN */
+    
+/* HOSTING */
+    
+/* ACTIVITY */
+    
+.activity_header {
+    margin: 0px 0px 10px 30px;
+}
+    
+.activity_cards {
+    flex-flow: row wrap;
+    height: auto;
+}
+    
+.activity_card {
+    margin: 10px;
+    width: 95%;
+}
+
+.activity_card:hover {
+    transform: scale(1.02);
+}
+
+.activity_card_fig_img {
+    height: 170px;
+}
+    
+.activity_card_fig_caption {
+    margin-left: 20px;
+}
+    
+/* ACTIVITY */
+    
+/* FOOTER */
+    
+.footer {
+    margin-top: auto;
+    padding-top: 10px;
+}
+    
+.footer_containers {
+    flex-direction: column;
+}
+
+.footer_container {
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+/* FOOTER */
+
+}
